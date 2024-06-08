@@ -5,7 +5,7 @@ on:
   schedule:
     #  At minute 0 past hour 0, 2, 12, 19, and 22.如下
     # "0 */2 * * *" 每2小时检查一次 备份
-    - cron: "0 0,2,12,19,22 * * *"
+    - cron: "0 4,11,14,16,18 * * *"
   push:
     branches:
       - main
